@@ -8,7 +8,7 @@ import axios from 'axios';
 import { getToken } from '../utils/token';
 import { Ionicons } from '@expo/vector-icons';
 
-const API_BASE_URL = 'http://192.168.100.2:5000/api';
+const API_BASE_URL = 'https://restaurant-delta-cyan.vercel.app/api';
 // >>> PUT YOUR URL HERE <<<
 const ORDERS_BG_URL = 'https://c0.wallpaperflare.com/preview/159/307/795/burger-food-hamburger-eat.jpg';
 

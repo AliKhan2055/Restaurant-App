@@ -26,7 +26,7 @@ const carouselItems = [
   { id: 4, title: 'HAPPY HOURS', subtitle: "Free Dessert with Main Course", image: 'https://images.immediate.co.uk/production/volatile/sites/30/2024/02/Tahini-Mississippi-mud-pie-a501eda.jpg' },
 ];
 
-const API_BASE_URL = 'http://192.168.100.2:5000/api';
+const API_BASE_URL = 'https://restaurant-delta-cyan.vercel.app/api';
 const categories = [
   { name: 'All', icon: 'list' },
   { name: 'Starters', icon: 'drumstick-bite' },

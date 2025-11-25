@@ -8,7 +8,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import axios from 'axios';
 import { saveToken } from '../../utils/token';
 
-const API_BASE_URL = 'http://192.168.100.2:5000/api';
+const API_BASE_URL = 'https://restaurant-delta-cyan.vercel.app/api';
 const BACKGROUND_IMAGE_URI = 'https://c0.wallpaperflare.com/preview/159/307/795/burger-food-hamburger-eat.jpg';
 
 export default function LoginScreen({ navigation }) {

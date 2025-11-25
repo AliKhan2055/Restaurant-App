@@ -76,7 +76,7 @@ export default function CartScreen({ route, navigation }) {
 
     try {
       const token = await getToken();
-      await axios.post('http://192.168.100.2:5000/api/orders', payload, {
+      await axios.post('https://restaurant-delta-cyan.vercel.app/api/orders', payload, {
         headers: { Authorization: `Bearer ${token}` }
       });
      // clearCart();
