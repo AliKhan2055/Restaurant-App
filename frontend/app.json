@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "uplifting-violet-candy",
+    "name": "FOODIE",
     "slug": "snack-27ba6595-921b-4d38-a73b-a47ecc527890",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.aliraja.snack27ba6595921b4d38a73ba47ecc527890"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3c09ab6e-3641-4de5-8424-26dbc9c6c87a"
+      }
     }
   }
 }
